@@ -1,23 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+import { Button, ButtonGroup, Paper } from '@mui/material';
+import { useNavigate } from 'react-router-dom'; 
+import Home from './home'; 
+
+function ChangePage() {
+  const navigate = useNavigate();
+
+
+  navigate('/home');
+}
+
+
 
 function App() {
+  const navigate = useNavigate(); 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 style={{ textAlign: 'center' }}> Menu Desplegable </h1>
+      <Paper>
+        <ButtonGroup>
+          <Button variant="contained"
+            sx={{
+              textAlign: 'center',
+              justifyContent: 'center'
+            }} >
+            About
+          </Button>
+
+          <Button onClick={() => navigate('/home')}> 
+            Home
+          </Button>
+
+          <Button variant='contained'>
+            
+            Contact
+          </Button>
+        </ButtonGroup>
+      </Paper>
     </div>
   );
 }
