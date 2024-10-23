@@ -4,7 +4,7 @@ Se utiliza para definir una función asíncrona, lo que permite que el código c
 ## `Promise`
 Por otro lado, las promesas son estructuras que permiten manejar de forma más sencilla los resultados de operaciones asincrónicas en el código. Sin embargo, cuando se trata de múltiples promesas, el encadenamiento mediante el uso de .then puede volverse complejo y difícil de manejar debido a la creciente cantidad de variables y condiciones.
 
-En cuanto a diferencial es mas  comodo en cuanto a simplicidad  en el uso y menos linea de codigo para el mismo tipo de tarea
+En cuanto a diferencial es mas  comodo en cuanto a simplicidad  en el uso y menos linea de codigo para el mismo tipo de tarea usar Async - Await
 
 
 
