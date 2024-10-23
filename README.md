@@ -1,12 +1,22 @@
-# Getting Started with Create React App
+# `Async-Await`
+Se utiliza para definir una función asíncrona, lo que permite que el código continúe ejecutándose mientras se espera la respuesta de una operación más lenta. Junto a async, se emplea la palabra clave await, que indica al programa cuándo debe detenerse y esperar el resultado de dicha operación antes de continuar.
+
+## `Promise`
+Por otro lado, las promesas son estructuras que permiten manejar de forma más sencilla los resultados de operaciones asincrónicas en el código. Sin embargo, cuando se trata de múltiples promesas, el encadenamiento mediante el uso de .then puede volverse complejo y difícil de manejar debido a la creciente cantidad de variables y condiciones.
+
+En cuanto a diferencial es mas  comodo en cuanto a simplicidad  en el uso y menos linea de codigo para el mismo tipo de tarea
+
+
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+##### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+##### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
